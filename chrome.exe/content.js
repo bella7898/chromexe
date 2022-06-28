@@ -37,23 +37,23 @@ var quote
 switch (window.location.hostname) {
     case "www.youtube.com":
         document.head.innerHTML = generateSTYLES("https://focuspocus.bw7898.repl.co/style.css");
-        document.body.innerHTML = generateHTML("youtube", "\"\"");
+        document.body.innerHTML = generateHTML("youtube");
         break;
     case "www.twitch.tv":
         document.head.innerHTML = generateSTYLES("https://focuspocus.bw7898.repl.co/style.css");
-        document.body.innerHTML = generateHTML("twitch", );
+        document.body.innerHTML = generateHTML("twitch");
         break;
     case "www.dailymotion.com":
         document.head.innerHTML = generateSTYLES("https://focuspocus.bw7898.repl.co/style.css");
-        document.body.innerHTML = generateHTML("dailymotion", );
+        document.body.innerHTML = generateHTML("dailymotion");
         break;
     case "www.netflix.com":
         document.head.innerHTML = generateSTYLES("https://focuspocus.bw7898.repl.co/style.css");
-        document.body.innerHTML = generateHTML("netflix", );
+        document.body.innerHTML = generateHTML("netflix");
         break;
     case "www.primevideo.com":
         document.head.innerHTML = generateSTYLES("https://focuspocus.bw7898.repl.co/style.css");
-        document.body.innerHTML = generateHTML("prime video", );
+        document.body.innerHTML = generateHTML("prime video");
         break;
     case "www.disneyplus.com":
         document.head.innerHTML = generateSTYLES("https://focuspocus.bw7898.repl.co/style.css");
