@@ -8,7 +8,7 @@ const generateSTYLES = (link) => {
 
 const generateHTML = (pageName) => {
     return `
-  <div class="wrapper">
+  <div class="flex-container">
     <div id="content">
       <div id="stratheadwrap">
         <div id="starthead">
